@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>about me</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            background-color: #93a1c5;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .navbar_logo {
+            font-family: 'Oswald', sans-serif;
+            color: darkslateblue;
+            font-weight: bold;
+        }
+
+            .navbar_logo img {
+                height: 50px;
+            }
+
+        .navbar_icon {
+            display: flex;
+            padding-left: 0;
+        }
+
+            .navbar_icon a {
+                padding: 8px 12px;
+                color: white;
+            }
+
+        .content {
+            font-family: 'Carter One', cursive;
+            color: white;
+            text-shadow: -1px 0 blue, 0 1px blue, 1px 0 blue, 0 -1px blue;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+            .content h1 {
+                font-size: 40px;
+                margin-top: 25px;
+                text-align: center;
+            }
+        .content .About_Me p {
+            text-align: center;
+            font-size: 25px;
+        }
+
+            .content .About_Me img {
+                display: block;
+                width: 650px;
+                height:365px;
+                margin: 0 auto;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            .content .left a {
+                color: #3a9de7;
+                opacity: 0.7;
+            }
+
+            .content .right a {
+                color: #2d6db4;
+                opacity: 0.7;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar_logo">
+                <img src="./image/jihyun.png" />ji-hyun
+            </div>
+
+
+            <ul class="navbar_icon">
+                <li><a href="https://github.com/ji-hyun219"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://velog.io/@jihyun97"><i class="fab fa-blogger-b"></i></a></li>
+            </ul>
+
+
+        </nav>
+
+    </header>
+
+    <section class="content">
+
+        <div class="left"><a href="./my website.html"><i class="fas fa-arrow-left fa-5x"></i></a></div>
+
+        <div class="About_Me">
+                <h1>About Me</h1>
+                <p>
+                    My major is Industrial Engineering<br />
+                    and My age is 25.<br />
+                    I am currently student <br />
+                    and I live in Gunpo-si, Gyeonggi-do
+                </p>
+            <img src="./image/student.jpg" />
+        </div>
+
+        <div class="right"><a href="./reason.html"><i class="fas fa-arrow-right fa-5x"></i></a></div>
+
+    </section>
+
+</body>
+</html>
